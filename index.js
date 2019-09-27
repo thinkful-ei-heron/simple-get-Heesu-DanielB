@@ -13,7 +13,7 @@ function validUserNum(val) {
 }
 
 function takeInfo() {
-    let userNum = $(".js-userInput").val()
+    let userNum = $("input[type=number]").val()
     console.log(userNum);
 }
 
